@@ -1,0 +1,24 @@
+{
+  "name": "careercopilot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "master -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardosilveiravengreso/copilot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardosilveiravengreso/copilot/issues"
+  },
+  "homepage": "https://github.com/eduardosilveiravengreso/copilot#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}
