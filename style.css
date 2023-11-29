@@ -178,18 +178,22 @@ footer {
 
 #how-to-use ol {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   margin: 81px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #how-to-use li {
   box-shadow: #1c1c1c -1px 0px 5px 3px;
   border-radius: 15px;
   padding: 15px;
-  gap: 15px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 100%;
+  max-width: 250px;
+  text-wrap: wrap;
 }
 #how-to-use a {
   color: #186420eb;
