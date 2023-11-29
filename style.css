@@ -198,10 +198,22 @@ footer {
   max-width: 250px;
   text-wrap: wrap;
 }
+
 #how-to-use a {
   color: #186420eb;
   font-weight: bold;
+
   &:active {
     color: #186420eb;
   }
+}
+footer{
+  padding: 15px;
+}
+footer p{
+  margin: 3.5px;
+}
+.small {
+  margin: 0;
+  font-size: 10px;
 }
