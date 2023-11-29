@@ -6,7 +6,7 @@ body {
 
 header {
   background-color: #2a2a72;
-  color: #ffffff;
+  color: #efefef;
   padding: 10px 30px;
   position: fixed;
   top: 0;
@@ -15,10 +15,10 @@ header {
 }
 
 nav a {
-  color: #ffffff;
+  color: #fefefe;
 
   &:active {
-    color: #ffffff;
+    color: #fefefe;
   }
 }
 
@@ -52,14 +52,14 @@ ul li {
   display: inline-block;
   padding: 10px 20px;
   background-color: #2a2a72;
-  color: #ffffff;
+  color: #fefefe;
   text-decoration: none;
   margin-top: 10px;
 }
 
 #features {
-  background-color: #ffffff;
-  padding: 50px 0;
+  background-color: #fefefe;
+  padding: 105px 0;
   margin: 50px;
   display: flex;
   flex-direction: column;
@@ -67,8 +67,8 @@ ul li {
 }
 
 #testimonials {
-  background-color: #f2f2f2;
-  padding: 50px 0;
+  background-color: #fefefe;
+  padding: 105px 0;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -77,6 +77,7 @@ ul li {
 }
 
 .testimonial {
+  padding-top: 45px;
   box-shadow: 0px 0px 28px #8b8686;
   width: fit-content;
   margin: 40px 80px;
@@ -101,7 +102,7 @@ ul li {
 
 #download {
   background-color: #2a2a72;
-  color: #ffffff;
+  color: #fefefe;
   padding: 50px 0;
   text-align: center;
   margin-bottom: 70.4px;
@@ -109,7 +110,7 @@ ul li {
 
 footer {
   background-color: #333;
-  color: #ffffff;
+  color: #fefefe;
   text-align: center;
   padding: 10px;
   position: fixed;
@@ -162,7 +163,7 @@ footer {
 }
 
 #download a {
-  background: white;
+  background: rgb(239, 239, 239);
   border-radius: 15px;
   box-shadow: 3px 3px 5px #727171;
   color: #594747;
@@ -170,6 +171,8 @@ footer {
 }
 
 #how-to-use {
+  background-color: #f2f2f2;
+  padding: 105px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
